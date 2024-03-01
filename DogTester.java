@@ -1,8 +1,8 @@
 public class DogTester {
     public static void main (String [] args) {
         System.out.println ("Let\'s simulate a vet office.");
-        Dog d = new Dog (new LicenseName("Brady the Brindle", "Brady"), "Whippet", 39.6);
-        System.out.println (d);
+        Dog brady = new Dog (new LicenseName("Brady the Brindle", "Brady"), "Whippet", 39.6);
+        System.out.println (brady);
     }
 }
 
