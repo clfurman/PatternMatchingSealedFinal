@@ -25,7 +25,7 @@ sealed interface Animal permits Dog, Cat {
 record LicenseName (String fullName, String nickname) {
 }
 
-record Dog (LicenseName name, String Breed, double weight) implements Animal {
+record Dog (LicenseName name, String breed, double weight) implements Animal {
 }
 
 record Cat (String name, String Breed, double weight) implements Animal {
