@@ -2,13 +2,13 @@ import java.util.*;
 
 public class DogTester {
     public static void main (String [] args) {
-        ArrayList<Animal> animals = new ArrayList<Animal>();
+        ArrayList<Animal> animals = new ArrayList<>();
 
         System.out.println ("Let\'s simulate a vet office.");
-        Dog d = new Dog (new LicenseName("Brady the Brindle", "Brady"), "Whippet", 39.6);
-        Cat c = new Cat ("Mittens", "Siamese", 8.2);
-        animals.add (d);
-        animals.add (c);
+        Dog brady = new Dog (new LicenseName("Brady the Brindle", "Brady"), "Whippet", 39.6);
+        Cat mittens = new Cat ("Mittens", "Siamese", 8.2);
+        animals.add (brady);
+        animals.add (mittens);
         System.out.println (animals);
 
         for (Animal a : animals) {
@@ -22,6 +22,7 @@ public class DogTester {
         }
     }
 }
+
 //sealed interface means only Dog and Cat can implement Animal
 sealed interface Animal permits Dog, Cat {
 }
