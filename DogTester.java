@@ -10,6 +10,7 @@ public class DogTester {
 
         for (Animal a: animals){
             switch (a) {
+                //uses rule switch with lambda
                 case Dog (LicenseName name, _, _)->System.out.println(name.nickname());
                 
                 case Cat (String name, _, _)->System.out.println(name);
