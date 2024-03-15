@@ -54,7 +54,7 @@ when installing more extensions. Here is an example of a suggested extension tha
 <b>Modification #2</b>
 
 1. Add a <code>LicenseName</code> record that consists of an show name and nickname for a dog.
-2. Modify the <code>Dog</code> record to include a <code>LicenseName</code>, breed, and weight.
+2. Modify the <code>Dog</code> record to include the <code>LicenseName</code>, breed, and weight.
 3. Update your <code>Dog</code> object to include a <code>new LicenseName</code> with the show name
    and nickname of your dog.
 4. The solution to this modification can be found in <b>3-LicenseRecord</b> files.
@@ -66,7 +66,7 @@ when installing more extensions. Here is an example of a suggested extension tha
 1. Add a <code>Cat</code> record that consists of the cat's name, breed, and weight.
 2. Add a <code>Cat</code> object in the <code>main</code> method and print the value to the screen.
 3. Now we want to add our animals to an <code>ArrayList</code>. In order to do this, we need an <code>Animal</code> interface.
-   You can create a <code>sealed</code> interface that identifies what classes are allowed to extend it, by using
+   You can create a <code>sealed</code> interface that identifies what classes are allowed to implement it, by using
    <code>sealed interface Animal permits Dog, Cat {}</code>
 4. Modify both the <code>Dog</code> and <code>Cat</code> records to implement the <code>Animal</code> interface by adding <code>implements Animal</code>
    after the parameter list.
@@ -83,12 +83,12 @@ when installing more extensions. Here is an example of a suggested extension tha
 
    <img width="454" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/19e3cfa1-6f7f-46fd-96a5-da70a6d93bfc">
 
-3. Update your code to use pattern matching with <code>instanceof</code> combine the test, declaration, and typecasting into one statement.
+3. Update your code to use pattern matching with <code>instanceof</code> to combine the test, declaration, and typecasting into one statement.
    Here is the code modification to update the check for the <code>Dog</code> objects:
 
    <img width="425" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/d764f731-b9b2-4935-a6d6-d160ab191d24">
 
-   Update your code to check for <code>Cat</code> using pattern matching.
+   Update your code to check for <code>Cat</code> using pattern matching with instanceof.
 
 4. The solution to this modification can be found in <b>5-PatternMatchingIfStatement</b> files.
 
@@ -108,7 +108,7 @@ when installing more extensions. Here is an example of a suggested extension tha
 
 <b>Modification #6 </b>
 
-1. We can use unnamed variables and pattern matching and to store the name instance variables for both the <code>Dog</code> and
+1. We can use unnamed variables and pattern matching to store the <code>name</code> instance variables for both the <code>Dog</code> and
    <code>Cat</code> objects. You can do this by changing the case statement to <code>case Dog(LicenseName name, _, _):</code>
    Since we aren't using the values of <code>breed</code> and <code>weight</code> we do not need to store them.
 2. The solution to this modification can be found in <b>7-PatternMatchingSwitchStatementUnnamedVar</b> files.
@@ -131,7 +131,7 @@ when installing more extensions. Here is an example of a suggested extension tha
 
 
 
-If you are struggling with VS code, you can add all of your code to the Java Playground here:
+If you are struggling with VS code, you can open these files in your own IDE or add all of your code to the Java Playground here:
 
 <java-playground id="pg1" style="display: block;">
     <snippet>
