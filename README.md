@@ -25,7 +25,7 @@ when installing more extensions. Here is an example of a suggested extension tha
 
 4. Then click the green <b>Create repository</b> button to create a new repository using the template repository.
 
-5. Once the new respository is create, copy the URL to use in Visual Studio Code.
+5. Once the new respository is created, copy the URL to use in Visual Studio Code.
 
    <img width="341" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/d1be1a60-5248-41b9-95e8-140f5ee95cef">
 
