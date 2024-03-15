@@ -6,8 +6,8 @@ when installing more extensions. Here is an example of a suggested extension tha
   <img width="357" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/046afd4d-2ce2-43cd-a97e-50c17c0539d8">
 
 
-1. Create a new repository from this template by clicking on the green Use this template button and selecting
-   Create a new respository.
+1. Create a new repository from this template by clicking on the green <b>Use this template</b> button and selecting
+   <b>Create a new respository</b>.
 
    <img width="501" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/884e64b4-f9bc-4680-8ead-ee2bc1ef121a">
 
