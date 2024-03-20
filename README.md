@@ -126,17 +126,3 @@ when installing more extensions. Here is an example of a suggested extension tha
 4. Create additional objects of your new <code>Animal</code> type record and add them to your <code>ArrayList</code>
 5. Update your switch statement to deal with your new <code>Animal</code> object, making the switch statement exhaustive.
  
-
-
-
-
-
-If you are struggling with VS code, you can open these files in your own IDE or add all of your code to the Java Playground here:
-
-<java-playground id="pg1" style="display: block;">
-    <snippet>
-      System.out.println("Let\'s simulate a vet office.");
-      // Thread.sleep(1);
-      // throw new Exception("test");
-    </snippet>
-  </java-playground>
